@@ -1,0 +1,27 @@
+{
+	"name": "bashka/bricks_migration-zend_module",
+	"description": "ZendFramework-модуль миграций базы данных",
+	"license": "GNU-3.0",
+	"keywords": [
+		"zf2",
+		"zf3",
+		"migration"
+	],
+	"authors": [
+		{
+			"name": "Artur Sh. Mamedbekov",
+			"email": "Artur-Mamedbekov@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"bashka/bricks_migration": "^0.10",
+		"zendframework/zend-servicemanager": "^2.7 || ^3.1",
+		"zendframework/zend-mvc-console": "^1.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bricks\\Migration\\": "src/"
+		}
+	}
+}
